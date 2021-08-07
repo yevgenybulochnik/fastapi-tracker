@@ -3,4 +3,4 @@
 Tracking application built to learn more about FastApi
 
 ## References
-    - [FastAPI Fullstack Starter](https://github.com/tiangolo/full-stack-fastapi-postgresql)
+- [FastAPI Fullstack Starter](https://github.com/tiangolo/full-stack-fastapi-postgresql)
