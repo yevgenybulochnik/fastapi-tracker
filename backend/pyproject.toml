@@ -1,8 +1,11 @@
 [tool.poetry]
-name = "fastapi-tracker"
+name = "trackerapi"
 version = "0.1.0"
 description = "Fastapi Activity Tracking app"
 authors = ["Your Name <you@example.com>"]
+packages = [
+    { include = "trackerapi", from = './src' },
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
