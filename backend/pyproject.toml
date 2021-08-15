@@ -23,6 +23,12 @@ flake8 = "^3.9.2"
 pytest-cov = "^2.12.1"
 sqlalchemy-stubs = "^0.4"
 
+[tool.mypy]
+plugins = [
+    'pydantic.mypy',
+    'sqlmypy'
+]
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
