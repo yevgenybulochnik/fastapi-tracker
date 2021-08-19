@@ -24,6 +24,7 @@ mypy = "^0.910"
 flake8 = "^3.9.2"
 pytest-cov = "^2.12.1"
 sqlalchemy-stubs = "^0.4"
+python-pydebug = "^0.6"
 
 [tool.mypy]
 plugins = [
