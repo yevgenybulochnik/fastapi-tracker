@@ -15,7 +15,6 @@ class Settings(BaseSettings):
         pattern = re.compile(r"POSTGRES_")
         missing_postgres_setting = 0
         for value in values:
-            print(value)
             if re.match(pattern, value):
                 if not values.get(value):
                     missing_postgres_setting = 1
